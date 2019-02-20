@@ -24,6 +24,7 @@ public class FirstCucumberClass {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.facebook.com/");
+		System.out.println("Opening URL");
 		
 	}
 	
