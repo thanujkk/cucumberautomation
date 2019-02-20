@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 		glue = {"com/cucumber/DataDrivenStepDefFile/" }, 
 		plugin = {
 
-						"pretty", "html:target/cucumber-htmlreport2",
+						"pretty", "html:target/cucumber-htmlreport",
 						"json:target/cucumber-jsonreport/cucumber-jsonreport2.json",
 						"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/ExtentReport2.html"
 
